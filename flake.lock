@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "csvs-sh": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1651079676,
+        "narHash": "sha256-AxIViFd26tbHqWBxa5coc89mnkfaDPPkSfE6JyjWX8Q=",
+        "ref": "main",
+        "rev": "67080695be516e71ce37f3f2b528bc9e55bdbf27",
+        "revCount": 2,
+        "type": "git",
+        "url": "https://source.fetsorn.website/fetsorn/csvs-sh"
+      },
+      "original": {
+        "ref": "main",
+        "type": "git",
+        "url": "https://source.fetsorn.website/fetsorn/csvs-sh"
+      }
+    },
+    "csvs-ui": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1651655947,
+        "narHash": "sha256-Vz4uAgarJUpqs+QuNH0rjNDcSl3bRDT7QeZCdedFZRg=",
+        "ref": "main",
+        "rev": "afb25ec78bc796234519f42ea55b7175148612a6",
+        "revCount": 140,
+        "type": "git",
+        "url": "https://source.fetsorn.website/fetsorn/csvs-ui"
+      },
+      "original": {
+        "ref": "main",
+        "type": "git",
+        "url": "https://source.fetsorn.website/fetsorn/csvs-ui"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1648219316,
+        "narHash": "sha256-Ctij+dOi0ZZIfX5eMhgwugfvB+WZSrvVNAyAuANOsnQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "30d3d79b7d3607d56546dd2a6b49e156ba0ec634",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "csvs-sh": "csvs-sh",
+        "csvs-ui": "csvs-ui",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

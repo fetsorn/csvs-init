@@ -1,0 +1,11 @@
+#+TITLE: csvs-init
+
+** serve
+#+begin_src sh
+nix develop
+csvs-ui-backend
+#+end_src
+** init lfs
+#+begin_src
+git lfs install --local
+#+end_src
